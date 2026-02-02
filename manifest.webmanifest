@@ -1,6 +1,6 @@
 {
-  "name": "MLO Test Prep",
-  "short_name": "MLO Prep",
+  "name": "HomeSAFE",
+  "short_name": "HomeSAFE",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#071a14",
