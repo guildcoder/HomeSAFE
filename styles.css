@@ -1,13 +1,13 @@
 /* Modern, mobile-first, no framework. */
 :root{
-  --bg:#071a14;
-  --card:#0f2a22;
-  --card2:#0c221c;
-  --text:#e9f4ef;
-  --muted:#b7d4c9;
-  --accent:#2dd4bf;
-  --danger:#fb7185;
-  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --bg:#1f2a21;
+  --card:#263327;
+  --card2:#2d3b2e;
+  --text:#f5f1e6;
+  --muted:#d1c7b6;
+  --accent:#c2a878;
+  --danger:#c97a63;
+  --shadow: 0 12px 32px rgba(0,0,0,.35);
   --radius:16px;
   --radius2:22px;
   --pad:16px;
