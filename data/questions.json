@@ -2,16 +2,16 @@
   {
     "id": "fc-0",
     "category": "general",
-    "prompt": "Which term best matches the following definition?",
-    "stem": "Mortgage Market Where credit institutions originate loans",
+    "prompt": "Select",
+    "stem": "When an ARM has rate caps of 5/2/6, the 6 refers to what?",
     "choices": [
-      "Regulation X",
-      "Regulation C",
-      "Primary",
-      "Regulation B"
+      "The maximum rate increase at the initial adjustment"
+      "The start rate for the loan"
+      "The maximum the rate can increase over the life of the loan"
+      "The rate maximum the rate can decrease over the life of the loan"
     ],
     "answerIndex": 2,
-    "explanation": "Primary"
+    "explanation": ""
   },
   {
     "id": "fc-1",
