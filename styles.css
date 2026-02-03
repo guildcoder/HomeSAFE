@@ -107,8 +107,9 @@ body{
   min-height: 320px;
   max-height: 560px;
   border-radius: 22px;
-  background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.04));
-  border: 1px solid rgba(255,255,255,.10);
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid rgba(0,0,0,.10);
   box-shadow: var(--shadow);
   padding: 18px;
   transform-style: preserve-3d;
@@ -116,11 +117,25 @@ body{
   user-select:none;
   cursor:pointer;
 }
+.flashcard .label
+.flashcard .hint{
+    color #666;
+}
+
+.flashcard .text{
+  color: #111;
+  font-size: clamp(20px, 3vw, 30px);
+  font-weight: 800;
+  max-width: 90%
+}
+
 .flashcard.flipped{ transform: rotateY(180deg); }
 .face{
   position:absolute; inset:0;
   padding:18px;
   display:flex; flex-direction:column; justify-content:center;
+  align-items:center;
+  text-align:center;
   backface-visibility:hidden;
 }
 .face.back{ transform: rotateY(180deg); }
