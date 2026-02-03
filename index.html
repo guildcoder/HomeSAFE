@@ -4,10 +4,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0b3d2e" />
-  <title>MLO Test Prep</title>
+  <title>HomeSAFE</title>
   <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="assets/icons/icon-192.png" sizes="192x192">
-  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <link rel="icon" href="assets/icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <link rel="stylesheet" href="styles.css" />
@@ -22,7 +22,7 @@
       <div class="brand">
         <div class="dot"></div>
         <div>
-          <div class="title">MLO Test Prep</div>
+          <div class="title">HomeSAFE</div>
           <div class="subtitle" id="subtitle">Home</div>
         </div>
       </div>
@@ -34,31 +34,6 @@
     <main id="view" class="view"></main>
 
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
-
-    <div id="modal" class="modal" hidden>
-      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-        <h2 id="modalTitle">Confirm</h2>
-        <p id="modalText"></p>
-        <div class="modal-actions">
-          <button id="modalCancel" class="btn ghost">Cancel</button>
-          <button id="modalOk" class="btn">OK</button>
-        </div>
-      </div>
-    </div>
-
-    <div id="a2hs" class="a2hs" hidden>
-      <div class="a2hs-card">
-        <div class="a2hs-title">Add to Home Screen</div>
-        <div class="a2hs-text">
-          For an app-like feel on iPhone: tap <strong>Share</strong> → <strong>Add to Home Screen</strong>.
-        </div>
-        <div class="a2hs-actions">
-          <button id="a2hsDismiss" class="btn ghost">Not now</button>
-          <button id="a2hsDone" class="btn">Got it</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <script type="module" src="app.js"></script>
 </body>
